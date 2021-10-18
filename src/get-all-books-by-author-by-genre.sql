@@ -13,4 +13,5 @@ INNER JOIN genres g
     on bg.genre_id = g.genre_id
 WHERE
     a.author_name = 'Leo Tolstoy'
-AND (g.genre_name = 'autobiography' OR g.genre_name = 'history');
+AND (g.genre_name = 'autobiography' 
+    OR g.genre_name = 'history');
