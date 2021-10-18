@@ -14,4 +14,5 @@ INNER JOIN genres g
 WHERE
     a.author_name = 'Leo Tolstoy'
 AND (g.genre_name = 'autobiography' 
-    OR g.genre_name = 'history');
+    OR 
+      g.genre_name = 'history');
